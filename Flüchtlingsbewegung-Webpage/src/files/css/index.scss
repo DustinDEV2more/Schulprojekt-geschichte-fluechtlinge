@@ -1,0 +1,18 @@
+:root{
+    --red:         #FF5959;
+    --yellow:      #FACF5A;
+    --cyan:        #49BEB7;
+    --darkblue:    #085F63;
+    --white:       #FBEEC1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", sans-serif;
+    color: var(--white);
+    text-decoration: none ;
+}

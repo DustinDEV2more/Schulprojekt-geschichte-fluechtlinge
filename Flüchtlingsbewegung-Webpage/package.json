@@ -2,6 +2,7 @@
   "name": "schulprojekt-fluechtlingsbewegung",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dustindev2more.github.io/Schulprojekt-Fluechtlingsbewegung/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
@@ -9,13 +10,11 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2",
-    "homepage": "https://dustindev2more.github.io/Schulprojekt-Fluechtlingsbewegung/"
-
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -40,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "sass": "^1.45.0"
   }
 }

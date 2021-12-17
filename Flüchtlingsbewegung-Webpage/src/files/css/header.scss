@@ -1,0 +1,26 @@
+header {
+    background-color: var(--darkblue);
+
+    .logo {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+
+        min-height: 4vh;
+
+        .bindestrich {
+            margin: 10px 10px;
+        }
+    }
+}
+
+// Desktop Styles
+@media screen and (max-width: 1300px){
+    header {
+        .logo {
+            h3 {
+                display: none;
+            }
+        }
+    }
+}
