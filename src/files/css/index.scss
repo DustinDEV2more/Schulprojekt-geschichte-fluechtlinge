@@ -15,3 +15,12 @@
     font-family: "Roboto Slab", sans-serif;
     text-decoration: none ;
 }
+
+.d {
+    display: none;
+}
+
+@media screen and (min-width: 1300px){
+    .d {display: block;}
+    .m {display: none;}
+}
