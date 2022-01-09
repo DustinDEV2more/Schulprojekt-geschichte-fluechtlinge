@@ -1,0 +1,155 @@
+.TitlePage {
+    
+    height: 95vh;
+    text-align: center;
+    background-color: var(--Pumpkin);
+    
+    @media screen and (max-width: 1300px){
+        .c {
+            position: relative;
+            top: 40%;
+            transform: translateY(-50%);
+
+            animation: easein 3s;
+        }
+    
+        @keyframes easein {
+            from {
+                right: 40%;
+                opacity: 0;
+            }
+
+            to {
+                right: 0% ;
+                opacity: 1;
+            }
+        }
+
+        .titleimage {
+            max-width: 80vw;
+            width: 300px;
+            border-radius: 8px;
+        }
+
+        h1{
+            font-size: 25px;
+        }
+
+        h2{
+            font-size: 15px;
+        }
+
+        #doubledown {
+            position: relative;
+            top: 45%;
+            transform: translateY(-50%);
+            animation: arrow_mobile 4s;
+            animation-iteration-count: infinite;
+
+            @keyframes arrow_mobile {
+                from {
+                    top: 45%
+                }
+        
+                50% {
+                    top: 47%
+                }
+        
+                to {
+                    top: 45%
+                }
+            }
+        }
+
+
+    }
+    /* desktop styles */
+    @media screen and (min-width: 1300px){
+
+        .c {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-items: center;
+        }
+
+        .titleimage {
+            // max-width: 80vw;
+            width: 500px;
+            height: 400px;
+            border-radius: 8px;
+
+            position: relative;
+            top: 45vh;
+            transform: translateY(-50%);
+            animation: easein_image 1s;
+
+            @keyframes easein_image {
+                from {
+                    opacity: 0%;
+                    top: 40vh;
+                }
+
+                to {
+                    opacity: 100%;
+                    top: 45vh;
+                }
+            }
+        }
+
+        .text {
+            position: relative;
+            top: 27vh;
+            transform: translateY(-50%);
+            padding: 0 30px;
+
+            animation: easein_text 3s;
+
+            @keyframes easein_text {
+                from {
+                    opacity: 0%;
+                    top: 22vh;
+                }
+
+                to {
+                    opacity: 100%;
+                    top: 27vh;
+                }
+            }
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        #doubledown {
+            position: relative;
+            top: 40vh;
+            transform: translateY(-50%);
+
+            animation: arrow_desktop 4s;
+            animation-iteration-count: infinite;
+
+            @keyframes arrow_desktop {
+                from {
+                    top: 40vh
+                }
+        
+                50% {
+                    top: 42vh
+                }
+        
+                to {
+                    top: 40vh
+                }
+            }
+        }
+
+
+    }
+
+}
