@@ -1,0 +1,46 @@
+.DieAnkunftPage {
+    text-align: center;
+
+    padding: 30px 10px;
+    margin: 10px 10px;
+
+    p {
+        text-align: left;
+    }
+
+    img {
+        width: 80vw;
+        margin: 20px ;
+        border-radius: 8px;
+    }
+
+    @media screen and (min-width: 1300px){
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+
+        h3 {
+            grid-column: 1/3;
+            font-size: 30px;
+        }
+
+        img {
+            grid-column: 1/2;
+            grid-row: 2/6;
+            width: 90%;
+            margin: 0 10px;
+            justify-self: center;
+        }
+
+        br {
+            display: none;
+        }
+
+        p {
+            grid-column: 2/3;
+            // grid-row: 2
+        }
+    }
+
+}

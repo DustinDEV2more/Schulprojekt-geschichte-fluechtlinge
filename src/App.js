@@ -6,6 +6,7 @@ import WohinPage from "./modules/Wohin";
 import WasGibtEsInAmericaPage from "./modules/WasGibtsInAmerika";
 import Gefahren from "./modules/Gefahren";
 import MitWem from "./modules/MitWem";
+import DieAnkunft from "./modules/DieAnkunftPage";
 
 import Footer from "./modules/footer";
 
@@ -21,12 +22,7 @@ function App() {
 
         <Gefahren />
         <MitWem />
-        {/* Aus welchen ländern */}
-        {/* Wie war die Ankunft */}
-
-        {/* Wo haben sie sich in Amerika angegliedert */}
-        {/* Waren sie in Amerika willkommen */}
-        {/* Was ist passiert? */}
+        <DieAnkunft />
 
         {/* Instagram Quizz */}
 

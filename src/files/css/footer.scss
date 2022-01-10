@@ -1,4 +1,5 @@
 .Footer {
+    background-color: var(--Head);
     max-height: 9vw;
 
     .c {
@@ -9,6 +10,10 @@
     .Title {
         display: flex;
         align-items: center;
+        
+        h1 {
+            font-size: 25px;
+        }
 
         .bindestrich {
             margin: 10px 10px;
@@ -18,23 +23,29 @@
     .Cat {
         justify-content: center;
         text-align: left;
+        background-color: var(--Head);
 
         h4 {
             margin-bottom: 10px;
         }
+
     }
 
+    .line {
+        .linec {
+            background: rgb(200, 200, 200);
+            height: 1.4px;
+        }
 
-
-
-    hr {
-        margin: 40px 40px;
+        padding: 30px 30px;
+        background-color: var(--Head);
     }
 
     .Copyright {
         text-align: center;
-        color: rgb(84, 84, 84);
+        color: rgb(200, 200, 200);
         font-size: smaller;
+        background-color: var(--Head);
     }
 
 
@@ -53,8 +64,12 @@
         justify-content: space-around;
     }
 
+    .line {
+        display: none;
+    }
 
-    br, hr {
+
+    br {
         display: none;
     }
 

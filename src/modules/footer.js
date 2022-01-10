@@ -23,7 +23,9 @@ const Footer = () => {
                 <a href="/datenschutz">Datenschutz</a><br />
             </div>
         </div>
-        <hr />
+        <div className="line">
+            <div className="linec"></div>
+        </div>
         <p className="Copyright">© {new Date().getFullYear()} Dustin Meyer (DustinDEV2more Development)</p>
         <p className="Copyright">Covered by MIT License.</p>
         <p className="Copyright">All used Images and other assets are excluded from this license.</p>

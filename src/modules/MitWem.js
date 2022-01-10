@@ -2,11 +2,10 @@ import "../files/css/MitWem.scss"
 
 
 const GefahrenAufDerReise = () => {
-    return ( <div className="GefahrenAufDerReisePage box">
-        <h3>Mit wem? (Platzhalter. Noch in Arbeit)</h3>
+    return ( <div className="MitWemPage box">
+        <h3>Gemeinsame Auswanderung</h3>
     
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula.</p>
-        <img src="https://randomwordgenerator.com/img/picture-generator/55e6d0405754a809ea898279c02132761022dfe05a51774073267dd2_640.jpg" alt="Random Pic" />
+        <p>Unter den ca. 6 Millionen Menschen, welche sich gröstenteils im 19. Jahrhundert in Deutschland ansiedelten waren unter den einzelenen Hunderttausend Reisenden auch Familienverbande bestehend aus Mann, Frau, Kinder und anderen Verwanten. Vereinzelt haben sich auch ganze Dörfer und Gemeinden gemeinsam dazu entschlossen aus zu wandern. Wie z.B die Gemeinde Sespenroth. Die Gemeinde mit ca. 726 Personen wanderte fast komplett nach Amerika gemeinsam aus. Sespenroth verschwand komplett vom Landstrich</p>
     </div> );
 }
  
