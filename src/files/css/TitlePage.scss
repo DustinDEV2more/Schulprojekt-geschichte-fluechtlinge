@@ -10,7 +10,7 @@
             top: 40%;
             transform: translateY(-50%);
 
-            animation: easein 3s;
+            animation: easein 2s;
         }
     
         @keyframes easein {
@@ -43,8 +43,9 @@
             position: relative;
             top: 45%;
             transform: translateY(-50%);
-            animation: arrow_mobile 4s;
+            animation: arrow_mobile 2s;
             animation-iteration-count: infinite;
+
 
             @keyframes arrow_mobile {
                 from {

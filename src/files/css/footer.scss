@@ -1,0 +1,66 @@
+.Footer {
+    max-height: 9vw;
+
+    .c {
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .Title {
+        display: flex;
+        align-items: center;
+
+        .bindestrich {
+            margin: 10px 10px;
+        }
+    }
+
+    .Cat {
+        justify-content: center;
+        text-align: left;
+
+        h4 {
+            margin-bottom: 10px;
+        }
+    }
+
+
+
+
+    hr {
+        margin: 40px 40px;
+    }
+
+    .Copyright {
+        text-align: center;
+        color: rgb(84, 84, 84);
+        font-size: smaller;
+    }
+
+
+@media screen and (max-width: 1300px) {
+    .c {
+        display: block;
+    }
+
+    .Title {
+        display: block;
+        text-align: center;
+    }
+
+    .Cat {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    br, hr {
+        display: none;
+    }
+
+    .Team {
+        display: none;
+    }
+ }
+
+}

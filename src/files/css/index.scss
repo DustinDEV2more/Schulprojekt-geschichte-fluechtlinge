@@ -1,12 +1,24 @@
 :root{
-    --Chery:            #A03232;
-    --Peach:            #C86F5E;
-    --Pumpkin:          #E6C073;
-    --Potato:           #FFFEB8;
-    --white:            #eaeaea;
+    --Head:            #ff304f;
+    --Background:      #002651;
+    --Box:             #422d87;
+    --Highligth:       #ff304f;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+html {
+    background-color: var(--Background);
+}
+
+h3, a {
+    color: var(--Head);
+}
+
+.box {
+    background: var(--Box);
+    border-radius: 8px;
+}
 
 * {
     margin: 0px;
@@ -14,6 +26,7 @@
     box-sizing: border-box;
     font-family: "Roboto Slab", sans-serif;
     text-decoration: none ;
+    color: rgb(210, 210, 210);
 }
 
 .d {

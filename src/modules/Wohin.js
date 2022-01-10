@@ -3,7 +3,7 @@ import diagram from "../files/images/Diagram Wohin.png"
 
 const WohinPage = () => {
     return ( <div className="WohinPage">
-        <div className="c">
+        <div className="c box">
             <h3>Wohin wollten die Menschen auswandern?</h3>
 
             <p className="m">Besonders in der zweiten Hälfte des 19. Jahrhunderts dominierten als Zielland die USA: 90 Prozent der deutschen Auswanderer, nach Übersee, gingen in die Vereinigten Staaten, mit großem Abstand folgten Kanada, Brasilien, Argentinien.</p>

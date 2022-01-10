@@ -3,6 +3,11 @@ import Header from "./modules/header";
 import TitlePage from "./modules/TitlePage";
 import WarumPage from "./modules/Warum";
 import WohinPage from "./modules/Wohin";
+import WasGibtEsInAmericaPage from "./modules/WasGibtsInAmerika";
+import Gefahren from "./modules/Gefahren";
+import MitWem from "./modules/MitWem";
+
+import Footer from "./modules/footer";
 
 function App() {
   return (
@@ -12,10 +17,10 @@ function App() {
         <TitlePage />
         <WarumPage />
         <WohinPage />
-        {/* Was gibt es in Amerika */}
+        <WasGibtEsInAmericaPage />
 
-        {/* Auf welche Gefahren mussten sich die Migranten vorbereiten */}
-        {/* Mit wem */}
+        <Gefahren />
+        <MitWem />
         {/* Aus welchen ländern */}
         {/* Wie war die Ankunft */}
 
@@ -23,6 +28,9 @@ function App() {
         {/* Waren sie in Amerika willkommen */}
         {/* Was ist passiert? */}
 
+        {/* Instagram Quizz */}
+
+        <Footer />
         </div>
     </div>
   );
