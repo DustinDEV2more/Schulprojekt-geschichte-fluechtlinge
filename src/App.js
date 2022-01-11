@@ -7,28 +7,54 @@ import WasGibtEsInAmericaPage from "./modules/WasGibtsInAmerika";
 import Gefahren from "./modules/Gefahren";
 import MitWem from "./modules/MitWem";
 import DieAnkunft from "./modules/DieAnkunftPage";
+import Datenschutz from "./modules/datenschutz";
+import {BrowserRouter as Router, Route, Switch as Routes} from "react-router-dom"
 
 import Footer from "./modules/footer";
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <Header />
-      <div className="content">
-        <TitlePage />
-        <WarumPage />
-        <WohinPage />
-        <WasGibtEsInAmericaPage />
+      <Routes>
+        <Route exact path="/">
+          <div className="content">
+            <TitlePage />
+            <WarumPage />
+            <WohinPage />
+            <WasGibtEsInAmericaPage />
 
-        <Gefahren />
-        <MitWem />
-        <DieAnkunft />
+            <Gefahren />
+            <MitWem />
+            <DieAnkunft />
 
-        {/* Instagram Quizz */}
+            {/* Instagram Quizz */}
 
+            </div>
+        </Route>
+
+        <Route exact path="/datenschutz">
+          <Datenschutz />
+        </Route>
+
+        <Route exact path="/imprint">
+        <h1>Impressum</h1>
+
+        <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
+        <p>Dustin Meyer<br />
+        Bergstra&szlig;e 50<br />
+        09113 Chemnitz</p>
+
+        <h2>Kontakt</h2>
+        <p>Telefon: 015251999236<br />
+        E-Mail: private@dustin-dm.de</p>
+        <div><div style={{height: "50vh"}}></div></div>
+        </Route>
+        </Routes> 
         <Footer />
-        </div>
     </div>
+    </Router>
   );
 }
 

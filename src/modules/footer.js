@@ -1,4 +1,5 @@
 import "../files/css/footer.scss"
+import {Link} from "react-router-dom"
 
 const Footer = () => {
     return ( <div className="Footer">
@@ -19,8 +20,8 @@ const Footer = () => {
 
             <div className="Cat">
                 <h4 className="d">Informationen</h4>
-                <a href="/imprint">Impressum</a><br />
-                <a href="/datenschutz">Datenschutz</a><br />
+                <Link to="/imprint">Impressum</Link><br />
+                <Link to="/datenschutz">Datenschutz</Link><br />
             </div>
         </div>
         <div className="line">
