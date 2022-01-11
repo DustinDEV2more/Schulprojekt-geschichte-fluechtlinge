@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Schulprojekt-Fluechtlingsbewegung/static/css/main.28b24326.chunk.css",
+    "main.css": "/Schulprojekt-Fluechtlingsbewegung/static/css/main.10b30ac4.chunk.css",
     "main.js": "/Schulprojekt-Fluechtlingsbewegung/static/js/main.df41ab81.chunk.js",
     "main.js.map": "/Schulprojekt-Fluechtlingsbewegung/static/js/main.df41ab81.chunk.js.map",
     "runtime-main.js": "/Schulprojekt-Fluechtlingsbewegung/static/js/runtime-main.7d263c23.js",
@@ -8,7 +8,7 @@
     "static/js/2.b7c40eea.chunk.js": "/Schulprojekt-Fluechtlingsbewegung/static/js/2.b7c40eea.chunk.js",
     "static/js/2.b7c40eea.chunk.js.map": "/Schulprojekt-Fluechtlingsbewegung/static/js/2.b7c40eea.chunk.js.map",
     "index.html": "/Schulprojekt-Fluechtlingsbewegung/index.html",
-    "static/css/main.28b24326.chunk.css.map": "/Schulprojekt-Fluechtlingsbewegung/static/css/main.28b24326.chunk.css.map",
+    "static/css/main.10b30ac4.chunk.css.map": "/Schulprojekt-Fluechtlingsbewegung/static/css/main.10b30ac4.chunk.css.map",
     "static/js/2.b7c40eea.chunk.js.LICENSE.txt": "/Schulprojekt-Fluechtlingsbewegung/static/js/2.b7c40eea.chunk.js.LICENSE.txt",
     "static/media/Auswanderungsschiff.b1baab22.jpeg": "/Schulprojekt-Fluechtlingsbewegung/static/media/Auswanderungsschiff.b1baab22.jpeg",
     "static/media/Diagram Wohin.50ac0006.png": "/Schulprojekt-Fluechtlingsbewegung/static/media/Diagram Wohin.50ac0006.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.7d263c23.js",
     "static/js/2.b7c40eea.chunk.js",
-    "static/css/main.28b24326.chunk.css",
+    "static/css/main.10b30ac4.chunk.css",
     "static/js/main.df41ab81.chunk.js"
   ]
 }
