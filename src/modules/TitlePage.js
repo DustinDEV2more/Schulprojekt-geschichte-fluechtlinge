@@ -14,7 +14,7 @@ const TitlePage = () => {
             <div className="text">
                 <h1>Flüchtlingsbewegung nach Amerika im 19. Jhd.</h1>
 
-                <h2>Eine Ausarbeitung von Arman, Dustin, Iven und Lucas</h2>
+                <h2>Eine Ausarbeitung von Arman, Dustin, Iven und Lucas.</h2>
             </div>
 
         </div>
