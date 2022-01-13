@@ -11,9 +11,20 @@ import Quizz from "./modules/quizz"
 import Datenschutz from "./modules/datenschutz";
 import {BrowserRouter as Router, Route, Switch as Routes} from "react-router-dom"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import Footer from "./modules/footer";
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1500
+    })
+  }, [])
+
   return (
     <Router>
     <div className="App">

@@ -3,7 +3,7 @@ import "../files/css/WarumPage.scss"
 import pic1 from "../files/images/gr202190.jpg"
 
 const WarumPage = () => {
-    return ( <div className="WarumPage">
+    return ( <div className="WarumPage" data-aos="fade-up">
         <div className="c box">
 
             <h3>Warum wollten die Menschen auswandern?</h3>

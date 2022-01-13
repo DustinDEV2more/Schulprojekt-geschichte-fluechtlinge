@@ -2,7 +2,7 @@ import "../files/css/WohinPage.scss"
 import diagram from "../files/images/Diagram Wohin.png"
 
 const WohinPage = () => {
-    return ( <div className="WohinPage">
+    return ( <div className="WohinPage" data-aos="fade-up">
         <div className="c box">
             <h3>Wohin wollten die Menschen auswandern?</h3>
 
