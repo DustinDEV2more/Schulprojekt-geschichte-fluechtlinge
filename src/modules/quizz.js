@@ -21,13 +21,13 @@ const QuizzPage = () => {
         </div>
 
        {ShowResults == false ? <div className="Questions">
-            <Question Title='1. Was erhofften sich Religiöse Splittergruppen im "Land der unbegrenzten Möglichkeiten"?' rightAnswer="Mehr Religionsfreiheit"  Answers={["Mehr Gehalt", "Mehr Platz", "Mehr Mitstreiter", "Mehr Religionsfreiheit"]} state={setFirstRight} id={nanoid(5)}/>
-            <Question Title='2. Warum starben in Deutschland ganze Berufszweige aus?' rightAnswer="Wegen der beginnenden Industrialisierung"  Answers={["Wegen der beginnenden Industrialisierung", "Wegen der Hungersnot", "Wegen der Landknappheit", "Wegen dem Erbrecht"]} state={setSecondRight} id={nanoid(5)}/>
-            <Question Title='3. Wie viel Prozent(%) der Deutschen Auswanderer gingen im 19. Jhd. zu den Vereinigten Staaten?' rightAnswer="ca. 90%"  Answers={["ca. 90%", "ca. 45%", "ca. 73%", "ca. 69%"]} state={setThirdRight} id={nanoid(5)}/>
+            <Question Title='1. Was erhofften sich Religiöse Splittergruppen im "Land der unbegrenzten Möglichkeiten"?' rightAnswer="Mehr Religionsfreiheit"  Answers={["Mehr Platz", "Mehr Mitstreiter", "Mehr Gehalt", "Mehr Religionsfreiheit"]} state={setFirstRight} id={nanoid(5)}/>
+            <Question Title='2. Warum starben in Deutschland ganze Berufszweige aus?' rightAnswer="Wegen der beginnenden Industrialisierung"  Answers={["Wegen der Landknappheit", "Wegen dem Erbrecht", "Wegen der Hungersnot", "Wegen der beginnenden Industrialisierung"]} state={setSecondRight} id={nanoid(5)}/>
+            <Question Title='3. Wie viel Prozent(%) der Deutschen Auswanderer gingen im 19. Jhd. zu den Vereinigten Staaten?' rightAnswer="ca. 90%"  Answers={["ca. 45%", "ca. 73%", "ca. 90%", "ca. 69%"]} state={setThirdRight} id={nanoid(5)}/>
             <Question Title='4. Warum gab es in Amerika keinen Mangel an Grundbesitz?' rightAnswer="Wegen der ständigen Westerweiterung"  Answers={["Wegen der ständigen Westerweiterung", "Wegen dem Goldrausch", "wegen der höheren Löhne", "Dank der Erfindung der Desoxyribonukleinsäure"]} state={setFourthRight} id={nanoid(5)}/>
-            <Question Title='5. Welchen Ozean mussten die Menschen auf dem Weg nach Europa überqueren?' rightAnswer="Atlantischen Ozean"  Answers={["Atlantischen Ozean", "Indischer Ozean", "Pazifischer Ozean", "Nürnberg"]} state={setFifthRight} id={nanoid(5)}/>
+            <Question Title='5. Welchen Ozean mussten die Menschen auf dem Weg nach Europa überqueren?' rightAnswer="Atlantischen Ozean"  Answers={["Pazifischer Ozean", "Atlantischen Ozean", "Indischer Ozean", "Nürnberg"]} state={setFifthRight} id={nanoid(5)}/>
             <Question Title='6. Was ist die Shigellose?' rightAnswer="Ansteckender Durchfall"  Answers={["Ansteckender Durchfall", "Salzwasser im Körper", "Hungertod", "Hautentzündung"]} state={setSixthRight} id={nanoid(5)}/>
-            <Question Title='7. Wie nannte man Menschen, welche in Amerika für den überfahrten Preis verkauft wurden?' rightAnswer="Käuflinge"  Answers={["Käuflinge", "German workforce", "German beggars", "Schwarzfahrer"]} state={setSeventhRight} id={nanoid(5)}/>
+            <Question Title='7. Wie nannte man Menschen, welche in Amerika für den überfahrten Preis verkauft wurden?' rightAnswer="Käuflinge"  Answers={["German workforce", "German beggars", "Käuflinge", "Schwarzfahrer"]} state={setSeventhRight} id={nanoid(5)}/>
 
             <button data-aos="slide-up" onClick={() => {SetShowResults(true)}}>Ergebnisse</button>
         </div> : <div className="Results">
@@ -50,7 +50,7 @@ const Question = ({Title, rightAnswer, Answers, state, id}) => {
      
 
     const [choosen, setChoosen] = useState(false)
-    const [answers, setanwsers] = useState(Answers.sort((a, b) => 0.5 - Math.random()))
+    const [answers, setanwsers] = useState(Answers)
     
 
     return (
