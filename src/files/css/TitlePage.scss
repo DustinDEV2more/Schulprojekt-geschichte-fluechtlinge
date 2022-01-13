@@ -10,7 +10,6 @@
             top: 40%;
             transform: translateY(-50%);
 
-            animation: fade_from_top_A 2s;
         }
     
         @keyframes fade_from_top_A {
@@ -83,7 +82,6 @@
             position: relative;
             top: 45vh;
             transform: translateY(-50%);
-            animation: fade_from_top_A_image 1s;
 
             @keyframes fade_from_top_A_image {
                 from {
@@ -104,7 +102,6 @@
             transform: translateY(-50%);
             padding: 0 30px;
 
-            animation: fade_from_top_A_text 3s;
 
             @keyframes fade_from_top_A_text {
                 from {

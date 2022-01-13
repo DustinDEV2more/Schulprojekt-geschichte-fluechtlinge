@@ -6,7 +6,7 @@ import TitleImage from "../files/images/GermanEmigrantsBoardingAShipInHamburg.jp
 const TitlePage = () => {
     return ( <div className="TitlePage">
 
-        <div className="c">
+        <div className="c" data-aos="fade-down">
 
             <img className="titleimage" src={TitleImage} alt="Deutsche Auswanderer im Hamburger Hafen" />
 
