@@ -7,15 +7,15 @@ RUN npm install
 ENV PATH="./node_modules/.bin:$PATH"
 
 COPY . ./
-RUN npm run build
+RUN react-scripts build
 RUN npm install -g serve
 
 #TAEFIK CONFIG
 LABEL traefik.enable="true" \
-      traefik.http.routers.esnr-ui.entrypoints="websecure" \
-      traefik.http.routers.esnr-ui.rule="Host(`fluechtlingsbewegung.tk`)" \
+      traefik.http.routers.ge-web.entrypoints="websecure" \
+      traefik.http.routers.ge-web.rule="Host(`fluechtlingsbewegung.tk`)" \
       traefik.port="80" \
-      traefik.http.routers.esnr-ui.tls.certresolver="letsencrypt"
+      traefik.http.routers.ge-web.tls.certresolver="letsencrypt"
 
 EXPOSE 80
 
