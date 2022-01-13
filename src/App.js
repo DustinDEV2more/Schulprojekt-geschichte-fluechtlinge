@@ -11,6 +11,8 @@ import Quizz from "./modules/quizz"
 import Datenschutz from "./modules/datenschutz";
 import {BrowserRouter as Router, Route, Switch as Routes} from "react-router-dom"
 
+import QR from "./files/images/qr.svg"
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -21,7 +23,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1500
+      duration: 2500
     })
   }, [])
 
@@ -41,7 +43,9 @@ function App() {
             <MitWem />
             <DieAnkunft />
 
-        <Quizz />
+            <div className="QR-Code">
+              <img src={QR} alt="Webpage QR Code" />
+            </div>
 
             </div>
         </Route>

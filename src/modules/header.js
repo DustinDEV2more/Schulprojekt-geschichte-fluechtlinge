@@ -7,6 +7,9 @@ const Header = () => {
             <h3 className="bindestrich"> - </h3>
             <h3>Die Flucht aus Europa</h3>
         </div>
+        <div className="betadisclaimer">
+            <h3>Vortragsversion</h3>
+        </div>
     </header> );
 }
  

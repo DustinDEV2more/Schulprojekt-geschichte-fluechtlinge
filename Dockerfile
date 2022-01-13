@@ -12,10 +12,12 @@ RUN npm install -g serve
 
 #TAEFIK CONFIG
 LABEL traefik.enable="true" \
-      traefik.http.routers.ge-web.entrypoints="websecure" \
-      traefik.http.routers.ge-web.rule="Host(`fluechtlingsbewegung.tk`)" \
+      traefik.http.routers.ge-web-v.entrypoints="websecure" \
+      traefik.http.routers.ge-web-v.rule="Host(`fluechtlingsbewegung.tk`) && PathPrefix(`/vortrag`)" \
+      traefik.http.middlewares.ge-web-v-stripprefix.stripprefix.prefixes="/vortrag" \
+      traefik.http.routers.ge-web-v.middlewares="ge-web-v-stripprefix" \
       traefik.port="80" \
-      traefik.http.routers.ge-web.tls.certresolver="letsencrypt"
+      traefik.http.routers.ge-web-v.tls.certresolver="letsencrypt"
 
 EXPOSE 80
 
