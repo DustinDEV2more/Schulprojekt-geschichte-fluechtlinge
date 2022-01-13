@@ -7,6 +7,7 @@ import WasGibtEsInAmericaPage from "./modules/WasGibtsInAmerika";
 import Gefahren from "./modules/Gefahren";
 import MitWem from "./modules/MitWem";
 import DieAnkunft from "./modules/DieAnkunftPage";
+import Quizz from "./modules/quizz"
 
 import Footer from "./modules/footer";
 
@@ -24,7 +25,7 @@ function App() {
         <MitWem />
         <DieAnkunft />
 
-        {/* Instagram Quizz */}
+        <Quizz />
 
         <Footer />
         </div>
