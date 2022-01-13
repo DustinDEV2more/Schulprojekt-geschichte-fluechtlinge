@@ -10,10 +10,10 @@
             top: 40%;
             transform: translateY(-50%);
 
-            animation: easein 2s;
+            animation: fade_from_top_A 2s;
         }
     
-        @keyframes easein {
+        @keyframes fade_from_top_A {
             from {
                 right: 40%;
                 opacity: 0%;
@@ -83,9 +83,9 @@
             position: relative;
             top: 45vh;
             transform: translateY(-50%);
-            animation: easein_image 1s;
+            animation: fade_from_top_A_image 1s;
 
-            @keyframes easein_image {
+            @keyframes fade_from_top_A_image {
                 from {
                     opacity: 0%;
                     top: 40vh;
@@ -104,9 +104,9 @@
             transform: translateY(-50%);
             padding: 0 30px;
 
-            animation: easein_text 3s;
+            animation: fade_from_top_A_text 3s;
 
-            @keyframes easein_text {
+            @keyframes fade_from_top_A_text {
                 from {
                     opacity: 0%;
                     top: 22vh;
