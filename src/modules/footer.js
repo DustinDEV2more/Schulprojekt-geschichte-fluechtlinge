@@ -15,7 +15,7 @@ const Footer = () => {
                 <a href="https://www.instagram.com/mxniforyou/">Arman</a><br />
                 <a href="https://www.instagram.com/dustin_dm__/">Dustin</a><br />
                 <a href="https://www.instagram.com/cxr_vxriven/">Iven</a><br />
-                <a href="https://www.instagram.com/regen_ud69/">Lucas</a><br />
+                <a href="https://www.instagram.com/regen_ud69/">Lukas</a><br />
             </div>
 
             <div className="Cat">
