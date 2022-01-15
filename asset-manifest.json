@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba1753c7.chunk.css",
-    "main.js": "/static/js/main.5404b117.chunk.js",
-    "main.js.map": "/static/js/main.5404b117.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.097b61d4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.097b61d4.js.map",
-    "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.a58e5ac7.chunk.js": "/static/js/2.a58e5ac7.chunk.js",
-    "static/js/2.a58e5ac7.chunk.js.map": "/static/js/2.a58e5ac7.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.7fc9bc2b.chunk.css.map": "/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.ba1753c7.chunk.css.map": "/static/css/main.ba1753c7.chunk.css.map",
-    "static/js/2.a58e5ac7.chunk.js.LICENSE.txt": "/static/js/2.a58e5ac7.chunk.js.LICENSE.txt",
-    "static/media/Auswanderungsschiff.b1baab22.jpeg": "/static/media/Auswanderungsschiff.b1baab22.jpeg",
-    "static/media/Diagram Wohin.50ac0006.png": "/static/media/Diagram Wohin.50ac0006.png",
-    "static/media/GermanEmigrantsBoardingAShipInHamburg.dbe60591.jpg": "/static/media/GermanEmigrantsBoardingAShipInHamburg.dbe60591.jpg",
-    "static/media/auswanderer-amerika-freiheitsstatue-100__v-gseapremiumxl.9721438c.jpg": "/static/media/auswanderer-amerika-freiheitsstatue-100__v-gseapremiumxl.9721438c.jpg",
-    "static/media/gr202190.bab66524.jpg": "/static/media/gr202190.bab66524.jpg"
+    "main.css": "/Schulprojekt-Fluechtlingsbewegung/static/css/main.ba1753c7.chunk.css",
+    "main.js": "/Schulprojekt-Fluechtlingsbewegung/static/js/main.f06518bf.chunk.js",
+    "main.js.map": "/Schulprojekt-Fluechtlingsbewegung/static/js/main.f06518bf.chunk.js.map",
+    "runtime-main.js": "/Schulprojekt-Fluechtlingsbewegung/static/js/runtime-main.7d263c23.js",
+    "runtime-main.js.map": "/Schulprojekt-Fluechtlingsbewegung/static/js/runtime-main.7d263c23.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/Schulprojekt-Fluechtlingsbewegung/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.a58e5ac7.chunk.js": "/Schulprojekt-Fluechtlingsbewegung/static/js/2.a58e5ac7.chunk.js",
+    "static/js/2.a58e5ac7.chunk.js.map": "/Schulprojekt-Fluechtlingsbewegung/static/js/2.a58e5ac7.chunk.js.map",
+    "index.html": "/Schulprojekt-Fluechtlingsbewegung/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/Schulprojekt-Fluechtlingsbewegung/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.ba1753c7.chunk.css.map": "/Schulprojekt-Fluechtlingsbewegung/static/css/main.ba1753c7.chunk.css.map",
+    "static/js/2.a58e5ac7.chunk.js.LICENSE.txt": "/Schulprojekt-Fluechtlingsbewegung/static/js/2.a58e5ac7.chunk.js.LICENSE.txt",
+    "static/media/Auswanderungsschiff.b1baab22.jpeg": "/Schulprojekt-Fluechtlingsbewegung/static/media/Auswanderungsschiff.b1baab22.jpeg",
+    "static/media/Diagram Wohin.50ac0006.png": "/Schulprojekt-Fluechtlingsbewegung/static/media/Diagram Wohin.50ac0006.png",
+    "static/media/GermanEmigrantsBoardingAShipInHamburg.dbe60591.jpg": "/Schulprojekt-Fluechtlingsbewegung/static/media/GermanEmigrantsBoardingAShipInHamburg.dbe60591.jpg",
+    "static/media/auswanderer-amerika-freiheitsstatue-100__v-gseapremiumxl.9721438c.jpg": "/Schulprojekt-Fluechtlingsbewegung/static/media/auswanderer-amerika-freiheitsstatue-100__v-gseapremiumxl.9721438c.jpg",
+    "static/media/gr202190.bab66524.jpg": "/Schulprojekt-Fluechtlingsbewegung/static/media/gr202190.bab66524.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.097b61d4.js",
+    "static/js/runtime-main.7d263c23.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.a58e5ac7.chunk.js",
     "static/css/main.ba1753c7.chunk.css",
-    "static/js/main.5404b117.chunk.js"
+    "static/js/main.f06518bf.chunk.js"
   ]
 }
