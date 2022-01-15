@@ -30,21 +30,6 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route exact path="/">
-          <div className="content">
-            <TitlePage />
-            <WarumPage />
-            <WohinPage />
-            <WasGibtEsInAmericaPage />
-
-            <Gefahren />
-            <MitWem />
-            <DieAnkunft />
-
-        <Quizz />
-
-            </div>
-        </Route>
 
         <Route exact path="/datenschutz">
           <Datenschutz />
@@ -62,6 +47,21 @@ function App() {
         <p>Telefon: 015251999236<br />
         E-Mail: private@dustin-dm.de</p>
         <div><div style={{height: "50vh"}}></div></div>
+        </Route>
+        <Route path="/">
+          <div className="content">
+            <TitlePage />
+            <WarumPage />
+            <WohinPage />
+            <WasGibtEsInAmericaPage />
+
+            <Gefahren />
+            <MitWem />
+            <DieAnkunft />
+
+        <Quizz />
+
+            </div>
         </Route>
         </Routes> 
         <Footer />
