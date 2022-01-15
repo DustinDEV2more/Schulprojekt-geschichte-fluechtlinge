@@ -2,7 +2,7 @@
   "name": "schulprojekt-fluechtlingsbewegung",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://dustindev2more.github.io/Schulprojekt-Fluechtlingsbewegung/",
+  "homepage": "https://ghpage.fluechtlingsbewegung.tk/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
